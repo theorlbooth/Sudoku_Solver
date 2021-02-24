@@ -45,9 +45,6 @@ def solve(sudoku):
             sudoku[y][x] = 0
         return
   print(np.matrix(sudoku))
-  # input("")
 
 
 solve(grid)
-
-# print(possible_single(4, 4, 6))
