@@ -13,7 +13,6 @@ import numpy as np
 
 # print(np.matrix(grid))
 
-
 def possible_single(sudoku, y, x, n):
   for i in range(0, 9):
     if sudoku[y][i] == n:
